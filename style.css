@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&display=swap');
+
+body {
+    background-color: rgba(47, 45, 45, 2); /* Cor de fundo com opacidade */
+    background-image: url('./img/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    font-family: 'Caveat', cursive;
+    text-align: center;
+    font-size: 4rem;
+    text-align: center;
+    color: #2BDEFD;
+}
+ 
+p {
+    font-size: 3rem;
+}
+
+.chute {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+input {
+    margin-top: 1rem;
+    width: 8rem;
+    height: 5rem;
+    text-align: center;
+    font-size: 3rem;
+    border-radius: 4rem;
+}
+
+button {
+    width: 8rem;
+    height: 3rem;
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: #2BDEFD;
+    margin-top: 2rem;
+    font-family: 'Caveat', cursive;
+    border-radius: 10%;
+    cursor: pointer;
+}
